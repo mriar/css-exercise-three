@@ -14,12 +14,11 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 5px 0 5px 5px;
   position: fixed;
   width: 420px;
   float:left;
   background-color: black;
-  height: 50px;
+  height: 40px;
 }
 .arrow-left
  {
@@ -31,18 +30,26 @@ nav {
 
 .restaurant-list {
   padding-top: 50px;
-  width: 100%;
+  width:100%;
   display: inline-block;
   background-color: white;
-  margin-top: 10px;
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid gray;
+}
+.content
+{
+  width: 50%;
+  display: inline-block;
+}
+
+.location {
+  height: 73px;
 }
 
 .arrow {
 display: inline-block;
+float: right;
 padding-bottom:4px;
 border: 2px;
-margin-left: 400px;
 margin-bottom: 10px;
 margin-top: 10px;
 
